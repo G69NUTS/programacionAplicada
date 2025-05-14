@@ -23,23 +23,22 @@ def division():
         return "Error: División entre cero"
 
 def calculadora():
-    print("Calculadora con funciones en Python")
-    print("Opciones: suma, resta, multiplicacion, division")
+    print("Calculadora con funciones")
+    print("Opciones:\n suma = 1 \n restan = 2 \n multiplicacion = 3 \n division = 4")
 
     operacion = input("Elige una operación: ").lower()
 
-    if operacion == "suma":
+    if operacion == "1":
         resultado = suma()
-    elif operacion == "resta":
+    elif operacion == "2":
         resultado = resta()
-    elif operacion == "multiplicacion":
+    elif operacion == "3":
         resultado = multiplicacion()
-    elif operacion == "division":
+    elif operacion == "4":
         resultado = division()
     else:
         resultado = "Operación no válida"
 
     print("Resultado:", resultado)
 
-# Ejecutar la calculadora
 calculadora()
