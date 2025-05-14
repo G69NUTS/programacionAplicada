@@ -32,5 +32,4 @@ def calculadora():
     else:
         print("Operación no válida")
 
-# Ejecutar la calculadora
 calculadora()
